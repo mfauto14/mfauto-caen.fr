@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://mfauto-caen.fr/index.html</loc></url>
-<url><loc>https://mfauto-caen.fr/mecanique.html</loc></url>
-<url><loc>https://mfauto-caen.fr/entretien.html</loc></url>
-<url><loc>https://mfauto-caen.fr/pneus.html</loc></url>
-<url><loc>https://mfauto-caen.fr/diagnostic.html</loc></url>
-<url><loc>https://mfauto-caen.fr/carrosserie.html</loc></url>
-<url><loc>https://mfauto-caen.fr/depannage.html</loc></url>
-<url><loc>https://mfauto-caen.fr/achat-vente.html</loc></url>
-<url><loc>https://mfauto-caen.fr/tarifs.html</loc></url>
-<url><loc>https://mfauto-caen.fr/contact.html</loc></url>
+  <url><loc>https://mfauto-caen.fr/</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 </urlset>
