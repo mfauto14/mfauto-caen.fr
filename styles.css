@@ -15,3 +15,97 @@ footer{padding:28px 0 95px;border-top:1px solid #202024;color:#777}.footerline{d
 .offer-expired{display:none}
 @media(max-width:1000px){.navlinks{display:none}.hero-content{grid-template-columns:1fr}.hero-side{display:none}.services-grid{grid-template-columns:1fr 1fr}.offer-head,.offer-panel,.showcase,.contact-grid{grid-template-columns:1fr}.offer-photo{min-height:350px}.offer-content{padding:34px}.gallery{grid-template-columns:1fr 1fr}.gallery figure.large{grid-column:1/-1}.final-cta-inner{flex-direction:column;align-items:flex-start}.final-cta .actions{margin-top:5px}.statbar{grid-template-columns:repeat(3,1fr)}.statbar div:nth-child(n+4){display:none}}
 @media(max-width:620px){.container{width:calc(100% - 24px)}.topbar-in{display:block;line-height:1.8}.topbar-in span{display:block}.nav{height:70px}.brand{width:145px;height:50px}.navcta{padding:11px 12px;font-size:12px}.hero{min-height:720px}.hero-copy{padding:75px 0 125px}.hero h1{font-size:57px}.hero p{font-size:17px}.hero-points{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:12px}.statbar{grid-template-columns:1fr 1fr}.statbar div:nth-child(3){display:none}.section-head{display:block}.section-head p{margin-top:15px}.services-grid{grid-template-columns:1fr}.offer-head{gap:25px}.offer-head h2{font-size:46px}.offer-photo{min-height:260px}.deal-list{grid-template-columns:1fr}.offer-content{padding:25px}.offer-content h3{font-size:34px}.showcase{gap:30px}.showcase-photo,.showcase-photo img{min-height:330px;height:330px}.trust-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery figure.large{grid-column:auto}.gallery figure,.gallery figure.large{min-height:300px}.form-two{grid-template-columns:1fr}.final-cta{padding:60px 0}.final-cta h2{font-size:43px}.contact-card{padding:22px}.mobile-actions{position:fixed;z-index:60;bottom:0;left:0;right:0;display:grid;grid-template-columns:1fr 1fr;background:#09090a;border-top:1px solid #2a2a2e;box-shadow:0 -12px 30px rgba(0,0,0,.4)}.mobile-actions a{padding:14px;text-align:center;font-weight:950;font-size:13px}.mobile-actions a+ a{background:var(--red)}footer{padding-bottom:85px}}
+
+/* MF AUTO — compact premium layout */
+.hero{min-height:590px}
+.hero-copy{padding:62px 0 92px}
+.hero-content{gap:48px}
+.hero h1{font-size:clamp(50px,6.2vw,82px);margin:16px 0 18px}
+.hero p{font-size:17px;max-width:650px}
+.hero-points{margin-top:22px;gap:14px}
+.hero-card{padding:22px;width:min(300px,100%)}
+.hero-card strong{font-size:27px}
+.hero-card-line{margin:16px 0}
+.hero-bottom .statbar div{padding:13px 15px}
+section{padding:72px 0}
+.section-head{margin-bottom:28px}
+.section-head h2,.offer-head h2,.showcase h2,.final-cta h2{font-size:clamp(36px,4.6vw,58px)}
+.offer-head{gap:45px;margin-bottom:28px}
+.offer-panel{min-height:390px;border-radius:18px}
+.offer-photo{min-height:390px}
+.offer-content{padding:32px}
+.offer-content h3{font-size:34px;margin:13px 0 8px}
+.deal-list{margin:17px 0;gap:6px}
+.deal-list div{padding:10px 12px}
+.services-grid{gap:11px}
+.service{min-height:205px;padding:22px}
+.service h3{font-size:20px;margin:15px 0 6px}
+.service p{font-size:13px;margin-bottom:14px}
+.service-icon{width:46px;height:46px;font-size:22px}
+.showcase{gap:42px}
+.showcase-photo{min-height:390px}
+.showcase-photo img{height:390px}
+.trust-grid{margin:20px 0}
+.gallery{gap:11px}
+.gallery figure{min-height:250px}
+.gallery figure.large{min-height:330px}
+.price-table th,.price-table td{padding:13px 15px}
+.final-cta{padding:58px 0}
+.contact-card{padding:24px}
+
+@media(max-width:1000px){
+  .hero{min-height:540px}
+  .hero-copy{padding:54px 0 88px}
+  .offer-photo{min-height:280px}
+  .offer-panel{min-height:0}
+  .showcase-photo,.showcase-photo img{min-height:330px;height:330px}
+}
+@media(max-width:620px){
+  .topbar{display:none}
+  .nav{height:64px}
+  .brand{width:132px;height:44px}
+  .navcta{padding:10px 11px;font-size:11px}
+  .hero{min-height:500px}
+  .hero-copy{padding:46px 0 78px}
+  .hero h1{font-size:45px;line-height:.9;margin:14px 0 15px}
+  .hero p{font-size:15px;line-height:1.45}
+  .actions{margin-top:20px;gap:8px}
+  .btn{min-height:46px;padding:0 15px;font-size:13px}
+  .hero-points{margin-top:16px;gap:7px;font-size:11px}
+  .statbar div{padding:10px 11px!important}
+  .statbar span{font-size:10px}
+  section{padding:50px 0}
+  .section-head h2,.offer-head h2,.showcase h2,.final-cta h2{font-size:36px}
+  .section-head{margin-bottom:22px}
+  .offer-head{gap:16px;margin-bottom:20px}
+  .offer-panel{border-radius:14px}
+  .offer-photo{min-height:185px;max-height:185px}
+  .photo-badge{left:14px;top:14px;padding:8px 10px;font-size:12px}
+  .photo-badge strong{font-size:18px}
+  .offer-content{padding:19px}
+  .offer-content h3{font-size:29px}
+  .deal-list{margin:14px 0}
+  .deal-list div{padding:9px 10px}
+  .deal-list span{font-size:12px}
+  .deal-list b{font-size:12px}
+  .deal-list del{font-size:9px}
+  .services-grid{gap:8px}
+  .service{min-height:150px;padding:17px;border-radius:12px}
+  .service-icon{width:40px;height:40px;font-size:19px;border-radius:10px}
+  .service h3{font-size:18px;margin:10px 0 4px}
+  .service p{font-size:12px;line-height:1.4;margin-bottom:10px}
+  .service a{bottom:14px;font-size:11px}
+  .showcase{gap:22px}
+  .showcase-photo,.showcase-photo img{min-height:230px;height:230px;border-radius:14px}
+  .photo-caption{left:10px;right:10px;bottom:10px;padding:10px 12px}
+  .photo-caption strong{font-size:14px}
+  .photo-caption span{font-size:10px}
+  .gallery{gap:8px}
+  .gallery figure,.gallery figure.large{min-height:190px;border-radius:12px}
+  .gallery figcaption{left:12px;bottom:11px;font-size:12px}
+  .price-table-wrap{border-radius:12px}
+  .price-table th,.price-table td{padding:10px 11px;font-size:11px}
+  .final-cta{padding:45px 0}
+  .contact-card{padding:18px;border-radius:14px}
+  .form input,.form select,.form textarea{padding:12px}
+}
